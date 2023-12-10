@@ -43,7 +43,7 @@ Examples:
 function showFirstAndLast(arr){
     let firstAndLast = [];
     arr.forEach(function(val)    {
-        firstAndLast.push(val(0)+val(val.length-1));
+        firstAndLast.push(val[0]+val[val.length-1]);
     });
     return firstAndLast;
 }
